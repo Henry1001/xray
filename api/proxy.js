@@ -2,7 +2,7 @@ export const config = {
   runtime: "edge",
 };
 
-const VPS_TARGET = "https://xray2.cdn77.store:443";
+const VPS_TARGET = "https://security.cdn77.store:443";
 
 export default async function handler(req) {
   const url = new URL(req.url);
